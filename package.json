@@ -1,0 +1,16 @@
+{
+  "name": "grouptest2-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dbserv": "json-server db.json -p 8888 -w true",
+    "wbpack": "npx webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "webpack-cli": "^5.0.1"
+  }
+}
